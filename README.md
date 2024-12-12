@@ -20,6 +20,15 @@
               </froms>
               <to>Apache License, Version 2.0</to>
             </licenseMapping>
+            <licenseMapping>
+              <froms>
+                <from>MIT License</from>
+                <from>The MIT License</from>
+                <from>MIT license</from>
+                <from>The MIT License (MIT)</from>
+              </froms>
+              <to>MIT</to>
+            </licenseMapping>
           </licenseMappings>
         </configuration>
       </plugin>
