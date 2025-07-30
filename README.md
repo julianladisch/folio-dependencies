@@ -33,3 +33,6 @@
         </configuration>
       </plugin>
 ```
+
+Then run `mvn clean project-info-reports:dependencies` and copy `target/reports/dependencies.html`
+into this repository and rename it to show module name and version.
