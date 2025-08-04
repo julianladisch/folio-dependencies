@@ -1,5 +1,6 @@
+How to generate the HTML page for a maven project:
 
-`plugin` snippet for pom.xml to merge license names:
+Add this `plugin` snippet into the pom.xml, it merges license names:
 
 ```
       <plugin>
@@ -36,3 +37,7 @@
 
 Then run `mvn clean project-info-reports:dependencies` and copy `target/reports/dependencies.html`
 into this repository and rename it so that the file name contains module name and version.
+
+Add an entry for it to `index.html`.
+
+This repository has GitHub Pages configured to automatically deploy it from the root directory of the `main` branch.
