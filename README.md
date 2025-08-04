@@ -35,4 +35,4 @@
 ```
 
 Then run `mvn clean project-info-reports:dependencies` and copy `target/reports/dependencies.html`
-into this repository and rename it to show module name and version.
+into this repository and rename it so that the file name contains module name and version.
