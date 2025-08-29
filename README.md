@@ -1,6 +1,6 @@
 How to generate the HTML page for a maven project:
 
-Add this `plugin` snippet into the pom.xml, it merges license names:
+Optionally add this `plugin` snippet into the pom.xml if you want some license names being merged:
 
 ```
       <plugin>
