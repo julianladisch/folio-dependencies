@@ -35,7 +35,7 @@ Optionally add this `plugin` snippet into the pom.xml if you want some license n
       </plugin>
 ```
 
-Then run `mvn clean project-info-reports:dependencies` and copy `target/reports/dependencies.html`
+Run `mvn clean project-info-reports:dependencies` and copy `target/reports/dependencies.html`
 into this repository and rename it so that the file name contains module name and version.
 
 Add an entry for it to `index.html`.
