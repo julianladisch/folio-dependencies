@@ -10,6 +10,7 @@ Optionally add this `plugin` snippet into the pom.xml if you want some license n
             <licenseMapping>
               <froms>
                 <from>The Apache Software License, Version 2.0</from>
+                <from>The Apache Software License, version 2.0</from>
                 <from>Apache Public License 2.0</from>
                 <from>Apache 2</from>
                 <from>Apache-2.0</from>
@@ -20,6 +21,14 @@ Optionally add this `plugin` snippet into the pom.xml if you want some license n
                 <from>Apache License 2.0</from>
               </froms>
               <to>Apache License, Version 2.0</to>
+            </licenseMapping>
+            <licenseMapping>
+              <froms>
+                <from>BSD-2-Clause</from>
+                <from>BSD 2-Clause License</from>
+                <from>BSD 2-Clause "Simplified" License</from>
+              </froms>
+              <to>BSD 2-Clause</to>
             </licenseMapping>
             <licenseMapping>
               <froms>
